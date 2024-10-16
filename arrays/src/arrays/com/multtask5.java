@@ -1,0 +1,14 @@
+package arrays.com;
+
+public class multtask5 {
+	public static void main(String[] args) {
+		//multi-d 
+		int [][] a= {{10,20,30,40,50},{60,70,80,90,100},{1,2,3,4,5}};
+		System.out.println(a[0][4]);
+		System.out.println(a[1][3]);
+		System.out.println(a[2][4]);
+		
+		
+	}
+
+}
