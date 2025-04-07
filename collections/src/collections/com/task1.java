@@ -41,7 +41,6 @@ public class task1 {
 	//ArrayList (C) : Search / Add 
 	//array list faster in terms of adding
     //array list slower in modifying because all the index position should be change they move from one to other position  
-	
 	//Using ArrayList we can traverse the data  in one direction
 	//When you insert or remove an element from the middle of the array-list, 
 	//all elements need to be shifted to maintain the order

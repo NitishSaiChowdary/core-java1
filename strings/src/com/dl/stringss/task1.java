@@ -23,6 +23,7 @@ public class task1 {
 		for (int i = 0; i < ch1.length; i++) {
 			System.out.print(ch1[i]);
 		}
+		System.out.println();
 		//length()method
 		String uname="Nitish";
 		System.out.println(uname.length());

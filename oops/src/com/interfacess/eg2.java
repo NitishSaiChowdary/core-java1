@@ -7,6 +7,7 @@ interface B{
 }
 class BB implements B{
 	
+	
 }
 public class eg2 {
 	public static void main(String[] args) {

@@ -1,0 +1,30 @@
+package arrays.com;
+
+import java.util.Arrays;
+
+public class task6 {
+	public static void main(String[] args) {
+		int[]a= {10,20,30,40,50};
+		System.out.println(a);//[I@4d591d15
+		System.out.println(Arrays.toString(a));//[10, 20, 30, 40, 50]
+		
+		int b[] = new int[5];
+		System.out.println(b);
+		Arrays.fill(a, 10);
+		System.out.println(Arrays.toString(a));
+		
+		int aa[]= {1,2,3,4};
+		int bb[]= {1,2,3,4};
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
