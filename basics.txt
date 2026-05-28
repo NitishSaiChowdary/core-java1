@@ -1,0 +1,239 @@
+// what is class?
+//class is a blue print or a template 
+//class contains variable, methods, blocks and constructors
+//we have user-defined class and build in classes  
+
+//2.what is objects?
+//object is an instance of a class 
+//objects name must be same as class name 
+
+//3.what is the variable?
+//variable holds the value and stores the value 
+
+//what is packages?
+//packages contains business logic
+//we have user defined packages and build in packages
+// in packages we have classes and interface etc...
+
+//class name
+ class car{
+  //object
+   new car();
+}
+
+//what are data-types / pre defind data types ?
+//number: byte, short, int, long
+//floating: float , double
+//Boolean : Boolean
+//characters: char
+
+//is string, arrays and collections are datatype in java?
+//No, string is a class is not a datatype 
+//No, arrays is a class is not a datatype
+//No, collections is a class is not a datatype
+
+// is java 100% object oriented?
+//no , java is strict in termes of the data we define 
+// how to make java 100% object oriented?
+//by using java wrapper classescan make java-bject oriented
+//what are wrapper classes;(they are building class)?
+ Byte b; , Short s; , int i; , long l; ,float f; , Double d; , boolean bb; ,characters ch;
+//what are the types of literals
+// integer literals ,floating point literals , charactera literals , boolean literals , string literals
+example- int a = 10;
+// int is datatype
+// a is variable
+// = is operator 
+// prepare some data :
+int productId = 45678; 
+double productCost = 40000.00d;
+string productName = "dell"; 
+//integer 
+int aa = 10;
+system.out.println(aa);//10
+//binary; b is binary perfix , base is 2 (0 and 1)
+int aaa = 010101;
+system.out.println(aaa);
+// hexa 0x is a perfix , base is 16 (a to f= total-6 ,0 to 9 =total-10) so it base 10
+int aaaa = 0xfe23;-------->0x f-16^3*15= 61440,e-16^2*14=3584,2-16^1*2=18,3-16^0*3=3
+system.out.println(aaaa);
+//octal is 0 , base is 8 (0 to 7)
+int aaaaa = 0234;
+system.out.println(aaaaa);
+//default value
+
+//Naming convations
+//pascal case--
+//in java when we create we should use pascal case
+//eg-class Hello{},class Test{}, class Login{},class Register{}.......
+//camel case--
+// in java when we create a method we should use camel case
+//eg-createAccount(),deleteAccount(),updateAccount(),registerWithIciciBank()
+//In java we declare variable we should us camel case
+//eg-productId
+//snake case--
+//eg-first_name , last_name etc....
+////////////////////////////
+//what are the elements in java?
+//elements are nothing but variable,methods,blocks, and ,constructors  
+
+
+
+//type of variables/properties-----
+1.Instance variable(also called as Non static variable)-------
+//Instance variable are declared inside class and outside the method
+int a=10;
+int b=20;
+public static void main(string[]args){
+//to call instance variable in the main method we need object creation
+Eg1 eg1 = new Eg1();
+System.out.print.ln(eg1.a);
+System.out.print.ln(eg1.b);
+}
+
+2.Static variable(also called as class variable)---------
+Static variable are inside the class and out the method
+static int a =10;
+static int b =10;
+public static void main(string[]args){
+//to call static variable in the main method we can call them as main method is static 
+Eg1 eg1 = new Eg1();
+System.out.print.ln(a);
+System.out.print.ln(b);
+//we can call even using class Name 
+System.out.print.ln(eg1.a);
+System.out.print.ln(eg1.b);
+/////
+System.out.print.ln(new Eg1().a);
+System.out.print.ln(new Eg1().b);
+}
+
+3.Local Variable------
+//local variable are declared inside the method only 
+
+public static void main(string[]args){
+int a =10;
+int b =10;
+System.out.print.ln(a);
+System.out.print.ln(b);
+
+
+//type of Methods--------
+1.Instance Method(Non static method)---
+//m1() is a method name
+//void is a return type
+//public is a modifier/access modifier
+//to call instance method we should create object
+public static void main(string[]args){
+Eg1 eg1=new Eg1();
+eg1.m1();
+new Eg2.m1();
+}
+public void m1(){
+// in method we write business logic
+System.out.print("M1 method")
+}
+
+
+2.Static method(class Method)-----------
+
+public static void main(string[]args){
+//to call static method we need class name
+Eg3.m1();//className.staticmethod()
+//we can call directly the static method in main method
+m1();
+}
+public static void m1(){
+System.out.println("mi method");
+}
+
+//types of block------
+1.Instance block-----
+
+2.static block---- to call static block main method is enough
+\\to call instance block we need object
+public static void main(String [] args){
+
+}
+
+
+//Types of constructors
+//constructor name and class name must be same 
+we have two type of constructors
+1.Default constructors------
+//internally default constructor will call by JVM
+//two call constructors we need object
+
+2.parameterized constructors
+
+
+//mix the local variables with instance method and static method 
+
+
+
+//what is string ?
+//string are sequence of characters
+//string is immutable(once we create we can not modify)
+//how many way we can create a string ?
+//two ways --
+
+//1.by using string literal
+String coupon = "ABCS";
+System.out.println(coupon);
+
+//2.by using new keyword
+String coupon_two = new String("xyzaa");
+System.out.println(coupon_two);
+
+//what is equals() method in string?
+//equals method always check the content comparsion
+String s1 ="NameOne";
+string s2 ="NameOne";
+System.out.println(s1.equals(s2));
+
+//control Statements /flow control---
+//How many type Statements we have in control Statements?
+//1.selection statements---if, else, else if,switch
+//2.Iteration statements---while-, for loop, do-while
+//3.Transfer Statements---break,continue
+//Task1 : if syntax:
+if(condition){}
+if(true){
+}
+//what is un-reachable code
+if(false){
+}
+
+int a=20;
+int b=30;
+if(a>b){
+system.out.print("condition is")
+}else
+System.out.print("false")}
+
+
+//1.what is string ?
+strings are sequence of character , string are immutable (once we create string we cannot modify)
+//2.how many ways we can create strings ?
+a. Using literal  and b. Using new keyword
+//3.Different b/w length property and length() method 
+length property we use in arrays i >a.length
+length method is used in strings (Ch. Length(username))
+//3.memory --when we create string literal how many objects are created -->only one object in string constant pool area 
+//4.when we create String using new keyword how many objects are created ---two objects are created
+ //5.different b/w equal()method and == reference operator
+-->equals() method will check the reference comparison 
+-->== will check the reference comparison 
+//6  Difference b/w String type and Object Type 
+//7.who to convert byte data to string data
+-->to convert byte to string data we use string constructor 
+//10.Different b/w string , String Buffer and StringBuilder
+string builder -->mutable ,no thread safety,1.5 version 
+String buffer-->mutable ,thread safety ,1.0 version
+string builder and String buffer are mutable ,if i need thread safety we need go for string buffer ,if don't need thread safety we need go for string builder 
+//11.differnce b/w split() and join() method ?
+Note: to remember spilt() and join() they work opposite to each other 
+//split() method returns the arrays of elements {string[] split = s1.split(' ');}
+//join() method will return string of words / characters{String s2 = String.join("",)}
+
+//12.differnce b/w equals() method and equalsIgnoreCase()
